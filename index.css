@@ -9,24 +9,41 @@ header {
     text-align: center;
     background-color: rgb(165, 30, 30);
     color: rgb(255, 255, 255);
-    padding: 45px;
+    padding: 15px 0px 10px;
     line-height:75px;
 }
 
 h3 {
-    font-size: larger; 
+    font-size: larger;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .body {
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* .majorsidebar {
-  background-color: grey;
-  width: 575px;
-  padding: 20px 0px;
-} */
+.container {
+  display: inline-flex;
+  padding: 0px 50px;
+}
+
+.major {
+  background-color:#eaeaea;
+}
+
+.majors, .info {
+  padding: 20px 10px;
+  width: 500px;
+}
+
+.information {
+  background-color: #f0eeea;
+  height: 863px;
+  width: 920px;
+}
 
 footer a {
   cursor: pointer;
