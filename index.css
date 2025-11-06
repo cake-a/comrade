@@ -30,9 +30,8 @@ body {
   padding-right: 80px;
 }
 
-h2, h3, h4, h5 {
+.body h1, h2, h3, h4, h5, p {
   margin: 10px;
-  font-size: larger;
 }
 
 footer {
