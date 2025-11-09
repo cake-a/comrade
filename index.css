@@ -37,6 +37,9 @@ body {
 footer {
   background-color: #b51d40;
   padding-left: 80px;
+  /* position: relative;
+  bottom: auto;
+  fix to bottom of page */
 }
 
 /* MYSTERY BC W3 */
