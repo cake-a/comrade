@@ -19,15 +19,15 @@ body {
   padding: 0;
 }
 
-.majortitle {
+#majortitle {
   text-align: center;
 }
 
 .body {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .body h1, h2, h3, h4, h5, p {
@@ -88,10 +88,11 @@ nav li.dropdown {
   display: block;
   text-align: left;
   font-size: 17px;
+  padding: 8px;
 }
 
 .dropdown-content a:hover, .dropdown-content1 a:hover {
-  background-color: #f1f1f1;
+  background-color: #c1c0c0;
 }
 
 .dropdown:hover .dropdown-content,
