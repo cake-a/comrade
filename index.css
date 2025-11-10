@@ -23,25 +23,20 @@ body {
 }
 
 .body {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 150px;
   padding-right: 150px;
-}
-
-.body h1, h2, h3, h4, h5, p {
-  margin: 10px;
 }
 
 footer {
   background-color: #b51d40;
   padding-left: 80px;
-  /* position: relative;
-  bottom: auto;
-  fix to bottom of page */
+  left: 0;
+  bottom: 0;
 }
 
-/* MYSTERY BC W3 */
+/* MYSTERY FROM W3 */
 
 nav ul {
   list-style-type: none;
