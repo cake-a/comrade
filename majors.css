@@ -19,8 +19,10 @@ body {
   padding: 0;
 }
 
-.majortitle {
-  text-align: center;
+.majorcolumn1 {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .body {
