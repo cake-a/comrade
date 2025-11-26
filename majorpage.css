@@ -13,8 +13,8 @@ header {
   font-size: 100px;
   font-weight: 800;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 body {
@@ -118,4 +118,5 @@ nav li.dropdown {
 .dropdown:hover .dropdown-content1 {
   display: flex;
   justify-content: center;
+
 }
