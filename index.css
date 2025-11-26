@@ -23,9 +23,9 @@ body {
   text-align: center;
 }
 
-.body {
-  padding-top: 50px;
-  padding-bottom: 50px;
+main {
+  padding-top: 25px;
+  padding-bottom: 25px;
   padding-left: 150px;
   padding-right: 150px;
 }
