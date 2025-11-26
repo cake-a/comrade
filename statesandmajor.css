@@ -44,7 +44,6 @@ main ul {
 
 footer {
   background-color: #b51d40;
-  padding-left: 80px;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -115,3 +114,4 @@ nav li.dropdown {
   justify-content: center;
 
 }
+
