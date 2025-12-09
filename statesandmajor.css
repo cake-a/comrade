@@ -81,6 +81,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
 
 nav li.dropdown {
   display: inline-block;
+  z-index: 5;  
 }
 
 .dropdown-content, .dropdown-content1 {
@@ -119,5 +120,6 @@ nav li.dropdown {
 main states page
 main majors page
 individual state pages with list of schools, which link to list of majors, which link to specific school major pathway, which link to book list and reading guides
+
 
 */
