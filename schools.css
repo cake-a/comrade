@@ -88,6 +88,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
 
 nav li.dropdown {
   display: inline-block;
+  z-index: 5;  
 }
 
 .dropdown-content, .dropdown-content1 {
@@ -123,4 +124,5 @@ nav li.dropdown {
 
 /* school major pages
 also regular school pages with list of majors
+
 majors link to school major page */
