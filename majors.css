@@ -6,7 +6,7 @@
 
 * {
   font-family: "Rationale";
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 
 header {
@@ -22,40 +22,51 @@ body {
   padding: 0;
 }
 
-.majortitle {
+#majortitle, .stateschool {
   text-align: center;
 }
 
-h1 {
-  text-align: center;
+.stateschool a {
+  font-size: 22px;
+  padding: 3px;
+  text-decoration: none;
 }
 
 h2 {
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 24px;
+  font-size: 28px;
 }
 
 li {
-    font-size: 18px;
+  font-size: larger;
+  list-style-type: none;
+  padding: 3px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
 }
 
 main {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding: 25px 250px;
+}
+
+.column {
+  display:flex;
+  justify-content: center;
+}
+
+.columns {
+  width: 475px;
 }
 
 footer {
-  background-color: #b51d40;
-  padding-left: 80px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  background-color: hsl(346, 72%, 41%);
+  position: relative;
+  top: 50px;
 }
 
-/* MYSTERY FROM W3 */
+/* MYSTERY FROM W3 & PATRICK COLE FROM VA*/
 
 nav ul {
   list-style-type: none;
@@ -64,7 +75,7 @@ nav ul {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #b51d40;
+  background-color: hsl(346, 72%, 41%);
 }
 
 nav li {
@@ -74,7 +85,7 @@ nav li {
 
 nav li a, .dropbtn, footer a {
   display: block;
-  color: white;
+  color: hsl(0, 0%, 100%);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -82,7 +93,7 @@ nav li a, .dropbtn, footer a {
 }
 
 nav li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: hsl(0, 100%, 50%);
 }
 
 nav li.dropdown {
@@ -92,8 +103,8 @@ nav li.dropdown {
 .dropdown-content, .dropdown-content1 {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: hsl(0, 0%, 98%);
+  box-shadow: 0px 8px 16px 0px hsla(0, 0%, 0%, 0.2);
   top:auto;
   left: 0;
   right: 0;
@@ -102,7 +113,7 @@ nav li.dropdown {
 }
 
 .dropdown-content a, .dropdown-content1 a {
-  color: black;
+  color: hsl(0, 0%, 0%);
   text-decoration: none;
   display: block;
   text-align: left;
@@ -111,12 +122,13 @@ nav li.dropdown {
 }
 
 .dropdown-content a:hover, .dropdown-content1 a:hover {
-  background-color: #c1c0c0;
+  background-color: hsl(0, 0%, 90%);
 }
 
 .dropdown:hover .dropdown-content,
 .dropdown:hover .dropdown-content1 {
   display: flex;
   justify-content: center;
-
 }
+
+/* majors with all the schools that offer programs from 50 states */
