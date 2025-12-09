@@ -65,6 +65,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
 
 nav li.dropdown {
   display: inline-block;
+  z-index: 5;  
 }
 
 .dropdown-content, .dropdown-content1 {
@@ -97,5 +98,6 @@ nav li.dropdown {
   display: flex;
   justify-content: center;
 }
+
 
 /* book list and reading guides */
