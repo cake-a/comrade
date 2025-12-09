@@ -73,6 +73,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
 
 nav li.dropdown {
   display: inline-block;
+  z-index: 5;
 }
 
 .dropdown-content, .dropdown-content1 {
@@ -113,5 +114,6 @@ account.html
 privacy.html
 submission.html
 contact.html
+
 
 */
