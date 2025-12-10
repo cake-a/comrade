@@ -27,7 +27,7 @@ body {
 }
 
 .stateschool a {
-  font-size: 22px;
+  font-size: 24px;
   padding: 3px;
   text-decoration: none;
 }
@@ -39,7 +39,7 @@ h2 {
 li {
   font-size: larger;
   list-style-type: none;
-  padding: 3px;
+  padding: 5px;
 }
 
 a {
@@ -98,7 +98,6 @@ nav li a:hover, .dropdown:hover .dropbtn {
 
 nav li.dropdown {
   display: inline-block;
-  z-index: 5;
 }
 
 .dropdown-content, .dropdown-content1 {
@@ -131,6 +130,5 @@ nav li.dropdown {
   display: flex;
   justify-content: center;
 }
-
 
 /* majors with all the schools that offer programs from 50 states */
