@@ -45,7 +45,7 @@ footer {
   top: 50px;
 }
 
-.column {
+.column, .statecolumn1 {
   width: 350px;
 }
 
@@ -123,4 +123,5 @@ individual state pages with list of schools, which link to list of majors, which
 
 
 */
+
 
