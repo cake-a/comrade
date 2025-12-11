@@ -11,13 +11,12 @@
 
 <body>
         <header>
-            COMRADE
+            <a href="./index.html">COMRADE</a>
         </header>
         
         <nav>
             <ul>
                 <li><a href="index.html" title="Home">HOME</a></li>
-                <li><a href="comradeaccount.html" title="Account">ACCOUNT</a></li>
                 <li class="dropdown">
                     <a href="majors.html" class="dropbtn">MAJORS</a>
                     <div class="dropdown-content">
@@ -194,17 +193,41 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="comradesubmissions.html" title="Submissions!">SUBMISSIONS</a></li>
+                <li><a href="comradesubmissions.html" title="Submissions">SUBMISSIONS</a></li>
+
+                <!-- SEARCH BUTTON JAVASCRIPT LATER -->
+                <li class="dropdown">
+                    <a onclick="myFunction()" class="dropbtn">SEARCH</a>
+                    <div class="dropdown-search">
+                        <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+                    </div>
+                </li>
             </ul>
         </nav>
 
         <main>
-           <h2>SUBMISSIONS FOR COURSE PATHWAY, SPECIFIC COURSES, BOOKLIST, READING GUIDE, AND NOTES</h2>
+        <h1>SUBMISSION FORM</h1>           
             <form action="/action_page.php">
-                <label for="files">Select files:</label>
-                <input type="file" id="files" name="files" multiple><br><br>
-                <input type="submit" value="Submit">
+                <label for="fname">State:</label>
+                    <input type="text" id="state" name="state"><br><br>
+                <label for="lname">School:</label>
+                    <input type="text" id="school" name="school"><br><br>
+                <label for="fname">Major/Program:</label>
+                    <input type="text" id="major" name="program"><br><br>
+                <label for="lname">Course list:</label>
+                    <input type="text" id="courselist" name="courselist"><br><br>
+                <label for="fname">Book list:</label>
+                    <input type="text" id="books" name="books"><br><br>
+                <label for="lname">Reading guide:</label>
+                    <input type="text" id="readings" name="readings"><br><br>
+                <label for="fname">Notes:</label>
+                    <input type="text" id="notes" name="notes"><br><br>
+                    <input type="submit" value="Submit">
             </form>
+
+            <p>Click the "Submit" button and the form-data will be sent to a page on the server called "action_page.php".</p>
+            <P>Thanks for your submission!</P>
+            <p>Your contribution to Comrade will help a lot of students!</p>
         </main>
 </body>
 

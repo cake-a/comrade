@@ -11,13 +11,12 @@
 
 <body>
         <header>
-            COMRADE
+            <a href="./index.html">COMRADE</a>
         </header>
         
         <nav>
             <ul>
                 <li><a href="index.html" title="Home">HOME</a></li>
-                <li><a href="comradeaccount.html" title="Account">ACCOUNT</a></li>
                 <li class="dropdown">
                     <a href="majors.html" class="dropbtn">MAJORS</a>
                     <div class="dropdown-content">
@@ -194,12 +193,20 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="comradesubmissions.html" title="Submissions!">SUBMISSIONS</a></li>
+                <li><a href="comradesubmissions.html" title="Submissions">SUBMISSIONS</a></li>
+
+                <!-- SEARCH BUTTON JAVASCRIPT LATER -->
+                <li class="dropdown">
+                    <a onclick="myFunction()" class="dropbtn">SEARCH</a>
+                    <div class="dropdown-search">
+                        <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+                    </div>
+                </li>
             </ul>
         </nav>
 
         <main>
-            <h3>PRIVACY</h2>
+            <h1>PRIVACY</h1>
         </main>
 </body>
 

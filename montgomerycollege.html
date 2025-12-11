@@ -3,7 +3,7 @@
 <head>
         <title>Comrade: Preparation for Higher Education</title>
         <meta name="viewport" content="width=device-width,initial-scale=1" >
-        <link href="./statesandmajor.css" type="text/css" rel="stylesheet">
+        <link href="./schools.css" type="text/css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rationale&display=swap" rel="stylesheet">
@@ -13,14 +13,13 @@
         <header>
             <a href="./index.html">COMRADE</a>
         </header>
-
+        
         <nav>
             <ul>
                 <li><a href="index.html" title="Home">HOME</a></li>
                 <li class="dropdown">
                     <a href="majors.html" class="dropbtn">MAJORS</a>
                     <div class="dropdown-content">
-                        <!-- double column drop down, figure out later -->
                         <div class="majorcolumn">
                             <a href="./majoraccounting.html">Accounting</a>
                             <a href="./majorasl.html">American Sign Language</a>
@@ -193,95 +192,105 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="comradesubmissions.html" title="Submissions!">SUBMISSIONS</a></li>
+                <li><a href="comradesubmissions.html" title="Submissions">SUBMISSIONS</a></li>
+
+                <!-- SEARCH BUTTON JAVASCRIPT LATER -->
+                <li class="dropdown">
+                    <a onclick="myFunction()" class="dropbtn">SEARCH</a>
+                    <div class="dropdown-search">
+                        <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+                    </div>
+                </li>
             </ul>
         </nav>
-    
-        <h1>MARYLAND SCHOOLS</h1>
-
+        
         <main>
-                <ul class="column">
-                    <h3>A</h3>
-                    <li>Allegany College of Maryland</li>
-                    <li>Anne Arundel Community College</li>
-                    <h3>B</h3>
-                    <li>Baltimore City Community College</li>
-                    <li>Bowie State University</li>
-                    <li>Breakthrough Bible College</li>
-                    <h3>C</h3>
-                    <li>Capital Bible Seminary</li>
-                    <li>Capitol Technology University	</li>
-                    <li>Carroll Community College</li>
-                    <li>Cecil College	</li>
-                    <li>Chesapeake College</li>
-                    <li>College of Southern Maryland</li>
-                    <li>Community College of Baltimore County</li>
-                    <li>Coppin State University </li>
-                    <h3>F</h3>
-                    <li>Frederick Community College</li>
-                    <li>Frostburg State University</li>
-                    <h3>G</h3>
-                    <li>Garrett College</li>
-                    <li>Goucher College</li>
-                    <h3>J</h3>
-                    <li>Johns Hopkins University</li>
-                </ul>
-                <ul class="column"> 
-                    <h3>L</h3>
-                    <li>Lincoln Tech</li>
-                    <li>Loyola University</li>
-                    <h3>M</h3>
-                    <li>Maryland Institute College of Art</li>
-                    <li>Maryland University of Integrative Health</li>
-                    <li>McDaniel College</li>
-                    <li><a href="./montgomerycollege.html">Montgomery College</a></li>
-                    <li>Morgan State University</li>
-                    <li>Mount St. Mary's University</li>
-                    <h3>N</h3>
-                    <li>Notre Dame of Maryland University</li>                    
-                    <h3>P</h3>
-                    <li>Prince George's Community College</li>
-                     <h3>S</h3>
-                    <li>Salisbury University</li>
-                    <li>St. John's College	</li>
-                    <li>St. Mary's College of Maryland	</li>   
-                    <li>St. Mary's Seminary and University</li>
-                    <li>Stevenson University</li> 
-                </ul>
-                <ul class="column">  
-                    <h3>T</h3>
-                    <li>TESST College of Technology</li>
-                    <li>Towson University</li>                                      
-                    <h3>U</h3>
-                    <li>Uniformed Services University of Health Sciences</li>  
-                    <li>United States Naval Academy	</li>
-                    <li>Universities at Shady Grove</li>
-                    <li>University of Baltimore	</li>
-                    <li>University of Maryland, Baltimore</li>
-                    <li>University of Maryland, Baltimore County</li> 
-                    <li>University of Maryland, Biotechnology Institute</li> 
-                    <li>University of Maryland, College Park</li>
-                    <li>University of Maryland, Eastern Shore</li>
-                    <li>University of Maryland, Environmental Science</li>
-                    <li>University of Maryland Global Campus </li>
-                    <li>University System of Maryland at Hagerstown	</li>
-                    <li>University System of Maryland at Southern Maryland</li> 
-                    <h3>W</h3>
-                    <li>Washington Adventist University</li>
-                    <li>Washington College</li>
-                    <li>Wor-Wic Community College</li>
-                    <h3>Y</h3>
-                    <li>Yeshivas Ner Yisroel</li>
-                    <li>Yeshiva College of The Nation's Capital</li>
-                </ul>
 
+            <h4><a href="MD.html">Maryland</a> / <a href="montgomerycollege.html">Montgomery College</a></h4>
+            
+            <h1><a href="https://www.montgomerycollege.edu/index.html" target="_blank">Montgomery College</a></h1>
+
+            <h3>Campuses:</h3>
+            <ul class="campus">
+                <li class="schoolcampus">Rockville</li>
+                <li class="schoolcampus">Germantown</li>
+                <li class="schoolcampus">Takoma Park</li>
+            </ul>
+
+            <h3>Majors Available:</h3>
+            <section>
+            <ul class="majors">
+                <li>Accounting</li>
+                <li>American Sign Language</li>
+                <li>Anthropology</li>
+                <li>Applied Geography</li>
+                <li>Architecture</li>
+                <li>Art</li>
+                <li>Astronomy</li>
+                <li>Automotive Technology</li>
+                <li>Behavioral Health</li>
+                <li>Bioinformatics</li>
+                <li>Biotechnology</li>
+                <li>Broadcast Media Production</li>
+                <li>Building Trades Technology</li>
+                <li>Business Analytics</li>
+                <li>Business and Management</li>
+                <li>Cloud Computing and Networking Technology</li>
+                <li>Communication Studies</li>
+                <li>Computer Applications</li>
+                <li>Computer Gaming and Simulation</li>
+                <li>Computer Science and Technologies</li>
+                <li>Construction Management</li>
+                <li>Criminal Justice</li>
+                <li>Cybersecurity</li>
+                <li>Dance</li>
+                <li>Data Science</li>
+                <li>Diagnostic Medical Sonography</li>
+                <li>Digital Media and Web Technology</li>
+                <li>Economics</li>
+                <li>Education</li>
+                <li>Emergency Preparedness Management</li>
+                <li>Engineering Science</li>
+                <li>English</li>
+            </ul>
+            <ul class="majors">
+                <li>Environmental Horticulture</li>
+                <li>Ethnic Social Studies</li>
+                <li>Film</li>
+                <li>Fire and Emergency Services</li>
+                <li>General Studies</li>
+                <li>Graphic Design</li>
+                <li>Health Enhancement, Exercise Science, and Physical Education</li>
+                <li>Health Information Management</li>
+                <li>History</li>
+                <li>Homeland Security</li>
+                <li>Hospitality Management</li>
+                <li>Interior Design</li>
+                <li>International Studies</li>
+                <li>Music</li>                                               
+                <li><a href="montgomerycollege_nursing.html">Nursing</a></li>
+                <li>Nutrition</li>
+                <li>Paralegal Studies</li>
+                <li>Performing Arts</li>
+                <li>Philosophy</li>
+                <li>Photography</li>
+                <li>Physical Therapist Assistant</li>
+                <li>Political Science</li>
+                <li>Professional and Technical Writing</li>
+                <li>Psychology</li>
+                <li>Radiologic (X-Ray) Technology</li>
+                <li>Science</li>
+                <li>Sociology</li>
+                <li>Surgical Technology</li>
+                <li>Women's and Gender Studies</li>
+                <li>World Languages</li>        
+            </ul>
+            </section>
         </main>
 </body>
 
     <footer>
-        <h4>
-            <a href="comradecontact.html" title="Contact Us">CONTACT</a>
-            <a href="comradeprivacy.html" title="Privacy">PRIVACY</a>
-        </h4>
+        <a href="comradecontact.html" title="Contact Us">CONTACT</a>
+        <a href="comradeprivacy.html" title="Privacy">PRIVACY</a>
     </footer>
 </html>

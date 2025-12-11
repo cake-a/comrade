@@ -26,29 +26,37 @@ body {
   padding: 0;
 }
 
-h1 {
+#majortitle, .stateschool {
   text-align: center;
-  padding: 30px 0px 0px;
-  font-size: 45px;
+}
+
+.stateschool a {
+  font-size: 24px;
+  padding: 3px;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+li {
+  font-size: larger;
+  list-style-type: none;
+  padding: 5px;
 }
 
 main {
+  padding: 25px 280px 0px;
+}
+
+.column {
   display:flex;
   justify-content: center;
 }
 
-main ul {
-  list-style-type: none;
-  line-height: 175%;
-  font-size: 20px;
-}
-
-.statecolumn1 {
-  width: 200px;
-}
-
-.majorcolumn1, .column {
-  width: 390px;
+.columns {
+  width: 475px;
 }
 
 footer {
@@ -123,10 +131,4 @@ nav li.dropdown {
   justify-content: center;
 }
 
-/* 
-
-main states page
-main majors page
-individual state pages with list of schools, which link to list of majors, which link to specific school major pathway, which link to book list and reading guides
-
-*/
+/* majors with all the schools that offer programs from 50 states */

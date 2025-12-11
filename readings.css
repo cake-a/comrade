@@ -21,34 +21,30 @@ header a{
     color: hsl(0, 0%, 0%);
 }
 
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
-h1 {
-  text-align: center;
-  padding: 30px 0px 0px;
-  font-size: 45px;
-}
-
 main {
-  display:flex;
-  justify-content: center;
+  padding: 0px 270px;
 }
 
-main ul {
-  list-style-type: none;
-  line-height: 175%;
-  font-size: 20px;
-}
-
-.statecolumn1 {
-  width: 200px;
-}
-
-.majorcolumn1, .column {
-  width: 390px;
+.coursename {
+  text-align: center;
 }
 
 footer {
@@ -123,10 +119,4 @@ nav li.dropdown {
   justify-content: center;
 }
 
-/* 
-
-main states page
-main majors page
-individual state pages with list of schools, which link to list of majors, which link to specific school major pathway, which link to book list and reading guides
-
-*/
+/* book list and reading guides */
