@@ -38,8 +38,15 @@ footer {
   background-color: hsl(346, 72%, 41%);
   position: relative;
   top: 50px;
+  text-align: center;
 }
-
+footer a {
+  display: inline-block;
+  color: hsl(0, 0%, 100%);
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
 /* MYSTERY FROM W3 & PATRICK COLE FROM VA*/
 
 nav ul {
@@ -57,16 +64,19 @@ nav li {
   padding: 0px 20px;
 }
 
-nav li a, .dropbtn, footer a {
+nav li a,
+.dropbtn {
   display: block;
   color: hsl(0, 0%, 100%);
   text-align: center;
-  padding: 14px 16px;
+  padding: 30px 16px;
   text-decoration: none;
   font-size: 24px;
 }
 
-nav li a:hover, .dropdown:hover .dropbtn {
+nav li a:hover,
+.dropdown:hover .dropbtn,
+footer a:hover {
   background-color: hsl(0, 100%, 50%);
 }
 
@@ -75,7 +85,8 @@ nav li.dropdown {
   z-index: 5;
 }
 
-.dropdown-content, .dropdown-content1 {
+.dropdown-content,
+.dropdown-content1 {
   display: none;
   position: absolute;
   background-color: hsl(0, 0%, 98%);
@@ -87,8 +98,9 @@ nav li.dropdown {
   padding: 10px;
 }
 
-
-.dropdown-content a, .dropdown-content1 a, .dropdown-search a {
+.dropdown-content a,
+.dropdown-content1 a,
+.dropdown-search a {
   color: hsl(0, 0%, 0%);
   text-decoration: none;
   display: block;
@@ -128,11 +140,11 @@ nav li.dropdown {
   font-size: 18px;
   padding: 14px 25px 12px 45px;
   border: none;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid hsl(0, 0%, 100%);
 }
 
 #myInput:focus {
-  outline: 3px solid #ddd;
+  outline: 3px solid hsl(0, 0%, 70%);
 }
 
 form {
