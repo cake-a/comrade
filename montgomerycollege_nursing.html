@@ -20,7 +20,6 @@
                 <li class="dropdown">
                     <a href="majors.html" class="dropbtn">MAJORS</a>
                     <div class="dropdown-content">
-                        <!-- double column drop down, figure out later -->
                         <div class="majorcolumn">
                             <a href="./majoraccounting.html">Accounting</a>
                             <a href="./majorasl.html">American Sign Language</a>
@@ -193,7 +192,15 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="comradesubmissions.html" title="Submissions!">SUBMISSIONS</a></li>
+                <li><a href="comradesubmissions.html" title="Submissions">SUBMISSIONS</a></li>
+
+                <!-- SEARCH BUTTON JAVASCRIPT LATER -->
+                <li class="dropdown">
+                    <a onclick="myFunction()" class="dropbtn">SEARCH</a>
+                    <div class="dropdown-search">
+                        <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+                    </div>
+                </li>
             </ul>
         </nav>
 
@@ -202,7 +209,7 @@
             <h2 class="majortitle">Montgomery College Nursing Pathway</h2>
 
             <h3>Prerequisite courses</h3>
-            <ul>
+            <ul class="classes">
                 <li>English foundation 3 semester hours (ENGF)</li>
                 <li>Mathematics foundation 3 semester hours (MATF)</li>
                 <li><a href="montgomerycollege_principlesofbiologyI.html">BIOL 150 - Principles of Biology I 4 semester hours (NSLD)</a></li>
@@ -219,7 +226,7 @@
                 <li>Humanities distribution 3 semester hours (HUMD)</li>
             </ul>
             <h3>Nursing courses</h3>
-            <ul>
+            <ul class="classes">
                 <li>NURS 113 - Fundamentals of Nursing 7 semester hours</li>
                 <li>NURS 114 - Professionalism and Communication in Nursing 1 semester hour</li>
                 <li>NURS 121 - Basic Health Assessment 1 semester hour</li>
