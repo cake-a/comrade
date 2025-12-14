@@ -20,7 +20,6 @@
                 <li class="dropdown">
                     <a href="majors.html" class="dropbtn">MAJORS</a>
                     <div class="dropdown-content">
-                        <!-- double column drop down, figure out later -->
                         <div class="majorcolumn">
                             <a href="./majoraccounting.html">Accounting</a>
                             <a href="./majorasl.html">American Sign Language</a>
@@ -193,8 +192,15 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="comradesubmissions.html" title="Submissions!">SUBMISSIONS</a></li>
-                <li><a href="#">SEARCH</a></li>
+                <li><a href="comradesubmissions.html" title="Submissions">SUBMISSIONS</a></li>
+
+                <!-- SEARCH BUTTON JAVASCRIPT LATER -->
+                <li class="dropdown">
+                    <a onclick="myFunction()" class="dropbtn">SEARCH</a>
+                    <div class="dropdown-search">
+                        <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+                    </div>
+                </li>
             </ul>
         </nav>
         
@@ -208,18 +214,17 @@
                     <li>Arizona Christian University</li>
                     <li>Arizona College of Nursing</li>
                     <li>Arizona State University</li>
-                    <li>Arizona Western College, Yuma, San Luis, Quartzsite, Wellton, Somerton</li>
+                    <li>Arizona Western College</li>
                     <h3>B</h3>
                     <li>Benedictine University at Mesa</li>
                     <li>Brookline College</li>
                     <li>Bryan University</li>
                     <h3>C</h3>
                     <li>Carrington College</li>
-                    <li>Central Arizona College, Coolidge, Casa Grande, Florence, Maricopa, Winkelman, Apache Junction, Queen Creek</li>
+                    <li>Central Arizona College</li>
                     <li>Chamberlain University</li>
-                    <li>Chandler-Gilbert Community College, Chandler, Mesa, Sun Lakes</li>
-                    <li>Cochise College, Douglas, Sierra Vista, Benson, Willcox, Fort Huachuca, Nogales</li>
-                    <li>Coconino Community College, Flagstaff, Williams, Page</li>
+                    <li>Cochise College</li>
+                    <li>Coconino Community College</li>
                     <li>Cummings Graduate Institute for Behavioral Health Studies</li>
                     <h3>D</h3>
                     <li>DeVry University</li>   
@@ -228,43 +233,46 @@
                     <h3>E</h3>
                     <li>Eastern Arizona College, Thatcher</li>
                     <li>Embry-Riddle Aeronautical University</li>
-                    <li>Estrella Mountain Community College, Avondale</li>
                     <h3>F</h3>
                     <li>Fuller Theological Seminary</li>
                     <h3>G</h3>
-                    <li>GateWay Community College, Phoenix</li>
-                    <li>Glendale Community College, Glendale</li>
                     <li>Grand Canyon University</li>
                     <h3>M</h3>
-                    <li>Mesa Community College, Mesa</li>
+                    <li>Maricopa County Community College District</li>
+                    <ul>
+                        <li>Chandler-Gilbert Community College, Chandler, Mesa, Sun Lakes</li>
+                        <li>Estrella Mountain Community College, Avondale</li>
+                        <li>GateWay Community College, Phoenix</li>
+                        <li>Glendale Community College, Glendale</li>
+                        <li>Mesa Community College, Mesa</li>
+                        <li>Paradise Valley Community College, Phoenix</li>
+                        <li>Phoenix College, Phoenix</li>
+                        <li>Rio Salado Community College, distance learning community college, Tempe</li>                    
+                        <li>Scottsdale Community College, Scottsdale</li>
+                        <li>South Mountain Community College, Phoenix</li>
+                    </ul> 
                     <li>Midwestern University</li>
-                    <li>Mohave Community College, Kingman, Bullhead City, Lake Havasu City</li>                    
-                    <h3>N</h3>
-                    <li>Northern Arizona University</li>
-                    <li>Northland Pioneer College, Snowflake, Show Low, Holbrook, Winslow</li>
-                    <h3>O</h3>
-                    <li>Ottawa University</li> 
+                    <li>Mohave Community College</li> 
                 </ul>
                 <ul class="column">                 
+                   
+                    <h3>N</h3>
+                    <li>Northern Arizona University</li>
+                    <li>Northland Pioneer College</li>
+                    <h3>O</h3>
+                    <li>Ottawa University</li>
                     <h3>P</h3>
-                    <li>Paradise Valley Community College, Phoenix</li>
                     <li>Park University</li>
-                    <li>Phoenix College, Phoenix</li>
                     <li>Phoenix Seminary</li>
                     <li>Pima Community College, Tucson</li>
                     <li>Prescott College</li> 
-                    <h3>R</h3>
-                    <li>Rio Salado Community College, distance learning community college, Tempe</li>                    
-                    <h3>S</h3>
-                    <li>Scottsdale Community College, Scottsdale</li>
-                    <li>South Mountain Community College, Phoenix</li>
                     <h3>U</h3>
                     <li>University of Arizona</li>
                     <li>University of Advancing Technology</li>
                     <li>University of Phoenix</li>
                     <li>Universal Technical Institute</li>
                     <h3>Y</h3>
-                    <li>Yavapai College, Prescott, Sedona, Clarkdale, Chino Valley</li>
+                    <li>Yavapai College</li>
                 </ul>
 
         </main>
