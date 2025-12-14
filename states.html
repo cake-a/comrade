@@ -13,13 +13,13 @@
         <header>
             <a href="./index.html">COMRADE</a>
         </header>
+
         <nav>
             <ul>
                 <li><a href="index.html" title="Home">HOME</a></li>
                 <li class="dropdown">
                     <a href="majors.html" class="dropbtn">MAJORS</a>
                     <div class="dropdown-content">
-                        <!-- double column drop down, figure out later -->
                         <div class="majorcolumn">
                             <a href="./majoraccounting.html">Accounting</a>
                             <a href="./majorasl.html">American Sign Language</a>
@@ -192,7 +192,15 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="comradesubmissions.html" title="Submissions!">SUBMISSIONS</a></li>
+                <li><a href="comradesubmissions.html" title="Submissions">SUBMISSIONS</a></li>
+
+                <!-- SEARCH BUTTON JAVASCRIPT LATER -->
+                <li class="dropdown">
+                    <a onclick="myFunction()" class="dropbtn">SEARCH</a>
+                    <div class="dropdown-search">
+                        <input type="text" placeholder="Search..." id="myInput" onkeyup="filterFunction()">
+                    </div>
+                </li>
             </ul>
         </nav>
 
