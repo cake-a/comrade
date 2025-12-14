@@ -7,7 +7,7 @@
 }
 
 * {
-  font-family: "Rationale";
+  font-family: "Rationale", sans-serif;
   letter-spacing: 1.25px;
 }
 
@@ -21,22 +21,22 @@ header {
 header a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 5%);
 }
 
 header a:hover {
-  color: hsl(106, 82%, 25%);
+  color: hsl(105, 85%, 25%);
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(0, 0, 0);
+  background-color: hsl(0, 0%, 5%);
   color:hsl(0, 0%, 100%)
 }
 
 footer {
-  background-color: hsl(105, 50%, 9%);
+  background-color: hsl(105, 50%, 10%);
   position: relative;
   top: 50px;
   text-align: center;
@@ -58,7 +58,7 @@ nav ul {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: hsl(105, 50%, 9%);
+  background-color: hsl(105, 50%, 10%);
 }
 
 nav li {
@@ -79,7 +79,7 @@ nav li a,
 nav li a:hover,
 .dropdown:hover .dropbtn,
 footer a:hover {
-  background-color: hsl(106, 82%, 17%);
+  background-color: hsl(105, 85%, 15%);
 }
 
 nav li.dropdown {
@@ -114,7 +114,7 @@ nav li.dropdown {
 .dropdown-content a:hover,
 .dropdown-content1 a:hover,
 .dropdown-search a:hover {
-  background-color: hsl(0, 0%, 38%);
+  background-color: hsl(0, 0%, 40%);
 }
 
 .dropdown:hover .dropdown-content,
