@@ -199,16 +199,26 @@ a {
 h4 a:hover,
 h1 a:hover,
 .majors a:hover,
-.classes a:hover
+.classes a:hover,
+.alphabetmajors a:hover,
+.alphabetgraduate a:hover
  {
   color: hsl(105, 80%, 35%);
 }
 
-ul .majors {
-  line-height: 175%;
+.major {
+  display: flex;
+  justify-content: center;
 }
 
-.majortitle {
+.majors {
+  line-height: 200%;
+  width: 400px;
+}
+
+.majortitle,
+.campus,
+h2 {
   text-align: center;
 }
 
@@ -222,11 +232,15 @@ h1 .schoolheader {
   font-size: 45px;
 }
 
-.alphabetmajors {
-  font-size: 22px;
+.alphabetmajors,
+.alphabetgraduate {
+  font-size: 24px;
   text-align: center;
 }
 
-.alphabetmajors a {
-  padding: 5px;
+.alphabetmajors a,
+.alphabetgraduate a {
+  padding: 8px;
+  text-decoration: none;
 }
+
