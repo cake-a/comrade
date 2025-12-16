@@ -208,7 +208,7 @@ h1 a:hover,
 }
 
 .majors {
-  width: 500px;
+  width: 430px;
   padding: 0px 10px;
   line-height: 175%;
 }
@@ -221,4 +221,8 @@ h1 a:hover,
   display: inline-block;
   padding: 3px 100px;
   text-align: center;
+}
+
+h1 .schoolheader {
+  font-size: 45px;
 }
