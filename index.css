@@ -162,7 +162,8 @@ contact.html
 */
 
 main {
-  padding: 25px 290px;
+  padding: 25px;
+  text-align: center;
 }
 
 form {
@@ -177,3 +178,4 @@ label {
 h1, p {
   text-align: center;
 }
+
