@@ -159,13 +159,10 @@ school pathway for specific majors
 */
 
 main {
-  padding: 0px 270px;
+  padding: 0px 300px;
 }
 
-section {
-  display:flex;
-  justify-content: center;
-}
+/* MAIN = CENTER AND WIDTH INSTEAD, FIGURE OUT LATER */
 
 h1 {
   text-align: center;
@@ -207,9 +204,7 @@ h1 a:hover,
   color: hsl(105, 80%, 35%);
 }
 
-.majors {
-  width: 430px;
-  padding: 0px 10px;
+ul .majors {
   line-height: 175%;
 }
 
@@ -219,10 +214,19 @@ h1 a:hover,
 
 .schoolcampus {
   display: inline-block;
-  padding: 3px 100px;
+  padding: 3px 90px;
   text-align: center;
 }
 
 h1 .schoolheader {
   font-size: 45px;
+}
+
+.alphabetmajors {
+  font-size: 22px;
+  text-align: center;
+}
+
+.alphabetmajors a {
+  padding: 5px;
 }
