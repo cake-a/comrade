@@ -253,5 +253,8 @@ h1 .schoolheader {
   text-decoration: none;
 }
 
+.scroll {
+  float: inline-end;
+}
 
 
