@@ -6,9 +6,17 @@
   font-style: normal;
 }
 
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
-  font-family: "Rationale", sans-serif;
+  font-family: "Anta", "Rationale", sans-serif;
   letter-spacing: 1.25px;
+  word-spacing: 4%;
+  line-height: 125%;
 }
 
 header {
@@ -108,7 +116,8 @@ nav li.dropdown {
   display: block;
   text-align: left;
   font-size: 17px;
-  padding: 8px;
+  padding: 8px 12px;
+  width: 200px;
 }
 
 .dropdown-content a:hover,
@@ -167,7 +176,7 @@ main {
 h1 {
   text-align: center;
   padding: 30px 0px 0px;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 h1 a{
@@ -213,23 +222,23 @@ h1 a:hover,
 
 .majors {
   line-height: 200%;
-  width: 400px;
+  width: 450px;
 }
 
 .majortitle,
 .campus,
-h2 {
+h1, h3 {
   text-align: center;
 }
 
 .schoolcampus {
   display: inline-block;
-  padding: 3px 90px;
+  padding: 3px 45px;
   text-align: center;
 }
 
 h1 .schoolheader {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .alphabetmajors,
@@ -243,4 +252,5 @@ h1 .schoolheader {
   padding: 8px;
   text-decoration: none;
 }
+
 
