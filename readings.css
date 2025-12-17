@@ -6,9 +6,17 @@
   font-style: normal;
 }
 
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
-  font-family: "Rationale", sans-serif;
+  font-family: "Anta", "Rationale", sans-serif;
   letter-spacing: 1.25px;
+  word-spacing: 4%;
+  line-height: 125%;
 }
 
 header {
@@ -108,7 +116,8 @@ nav li.dropdown {
   display: block;
   text-align: left;
   font-size: 17px;
-  padding: 8px;
+  padding: 8px 12px;
+  width: 200px;
 }
 
 .dropdown-content a:hover,
@@ -166,6 +175,11 @@ main {
   padding: 0px 270px;
 }
 
+h1 {
+  font-size: 40px;
+  padding: 30px 0px 0px;
+}
+
 h2 {
     font-size: 32px;
 }
@@ -191,4 +205,9 @@ h4 a:hover
 
 .coursename {
   text-align: center;
+}
+
+ul, li {
+  list-style-type: none;
+  font-size: 20px;
 }
