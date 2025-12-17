@@ -175,13 +175,19 @@ main {
   justify-content: center;
 }
 
-main a {
+main ul {
+  list-style-type: none;
   line-height: 175%;
+  font-size: 20px;
+}
+
+main a {
   font-size: 20px;
 }
 
 h1 {
   text-align: center;
+  padding: 30px 0px 0px;
   font-size: 45px;
 }
 
@@ -197,7 +203,6 @@ a {
 
 .statecolumn1 {
   width: 200px;
-  padding: 3px 10px 3px;
 }
 
 .majorcolumn1, .column {
