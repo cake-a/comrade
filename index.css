@@ -13,7 +13,7 @@
 }
 
 * {
-  font-family: "Anta", "Rationale", sans-serif;
+  font-family: "Rationale", sans-serif;
   letter-spacing: 1.25px;
   word-spacing: 4%;
   line-height: 125%;
@@ -187,4 +187,5 @@ label {
 h1, p {
   text-align: center;
 }
+
 
