@@ -6,9 +6,17 @@
   font-style: normal;
 }
 
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
-  font-family: "Rationale", sans-serif;
+  font-family: "Anta", "Rationale", sans-serif;
   letter-spacing: 1.25px;
+  word-spacing: 4%;
+  line-height: 125%;
 }
 
 header {
@@ -108,7 +116,8 @@ nav li.dropdown {
   display: block;
   text-align: left;
   font-size: 17px;
-  padding: 8px;
+  padding: 8px 12px;
+  width: 200px;
 }
 
 .dropdown-content a:hover,
