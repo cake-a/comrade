@@ -13,7 +13,7 @@
 }
 
 * {
-  font-family: "Anta", "Rationale", sans-serif;
+  font-family: "Rationale", sans-serif;
   letter-spacing: 1.25px;
   word-spacing: 4%;
   line-height: 125%;
@@ -252,5 +252,6 @@ h1 .schoolheader {
   padding: 8px;
   text-decoration: none;
 }
+
 
 
