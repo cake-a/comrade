@@ -13,7 +13,7 @@
 }
 
 * {
-  font-family: "Anta", "Rationale", sans-serif;
+  font-family: "Rationale", sans-serif;
   letter-spacing: 1.25px;
   word-spacing: 4%;
   line-height: 125%;
@@ -175,15 +175,13 @@ main {
   justify-content: center;
 }
 
-main ul {
-  list-style-type: none;
+main a {
   line-height: 175%;
   font-size: 20px;
 }
 
 h1 {
   text-align: center;
-  padding: 30px 0px 0px;
   font-size: 45px;
 }
 
@@ -199,6 +197,7 @@ a {
 
 .statecolumn1 {
   width: 200px;
+  padding: 3px 10px 3px;
 }
 
 .majorcolumn1, .column {
