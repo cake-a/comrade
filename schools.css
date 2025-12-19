@@ -167,11 +167,14 @@ general school pages with list of majors
 school pathway for specific majors
 */
 
-main {
-  padding: 0px 300px;
+.main {
+  display: flex;
+  justify-content: center;
 }
 
-/* MAIN = CENTER AND WIDTH INSTEAD, FIGURE OUT LATER */
+main {
+  width: 850px;
+}
 
 h1 {
   text-align: center;
@@ -256,5 +259,6 @@ h1 .schoolheader {
 .scroll {
   float: inline-end;
 }
+
 
 
