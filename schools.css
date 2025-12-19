@@ -225,7 +225,8 @@ h1 a:hover,
 
 .majors {
   line-height: 200%;
-  width: 450px;
+  flex-basis: 450px;
+  flex-shrink:2;
 }
 
 .majortitle,
@@ -259,6 +260,7 @@ h1 .schoolheader {
 .scroll {
   float: inline-end;
 }
+
 
 
 
