@@ -261,6 +261,11 @@ h1 .schoolheader {
   float: inline-end;
 }
 
+@media (max-width:500px) {
+  main {
+    width: 300px;
+  }
+}
 
 
 
