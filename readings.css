@@ -170,14 +170,14 @@ notes
 
 */
 
-
 .main {
   display: flex;
   justify-content: center;
 }
 
 main {
-  width: 850px;
+  width: 900px;
+  line-height: 175%;
 }
 
 h1 {
@@ -203,13 +203,17 @@ a {
 }
 
 h3 a:hover, 
-h4 a:hover
+p a:hover
 {
   color: hsl(105, 80%, 35%);
 }
 
 .coursename {
   text-align: center;
+}
+
+.books li  {
+  line-height: 175%;
 }
 
 ul, li {
