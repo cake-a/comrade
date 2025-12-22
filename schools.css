@@ -202,7 +202,7 @@ li {
 
 p {
   font-size: 20px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 a {
@@ -275,5 +275,6 @@ h1 .schoolheader {
     width: 300px;
   }
 }
+
 
 
