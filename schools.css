@@ -231,7 +231,7 @@ h1 a:hover,
 
 .majors li {
   line-height: 175%;
-  padding-right: 15px
+  padding-right: 15px;
 }
 
 .majortitle,
@@ -275,6 +275,7 @@ h1 .schoolheader {
     width: 300px;
   }
 }
+
 
 
 
