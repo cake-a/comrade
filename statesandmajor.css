@@ -209,6 +209,10 @@ a {
   width: 390px;
 }
 
+.column li {
+  line-height: 165%;
+}
+
 /* try to get it to wrap in the right way */
 @media (max-width: 600px) {
   main {
