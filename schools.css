@@ -173,7 +173,7 @@ school pathway for specific majors
 }
 
 main {
-  width: 850px;
+  width: 900px;
 }
 
 h1 {
@@ -208,7 +208,7 @@ a {
   color: hsl(0, 0%, 100%);
 }
 
-h4 a:hover,
+p a:hover,
 h1 a:hover,
 .majors a:hover,
 .classes a:hover,
@@ -224,9 +224,13 @@ h1 a:hover,
 }
 
 .majors {
-  line-height: 200%;
   flex-basis: 450px;
   flex-shrink:2;
+}
+
+.majors li {
+  line-height: 175%;
+  padding: 0 10px;
 }
 
 .majortitle,
@@ -257,16 +261,16 @@ h1 .schoolheader {
   text-decoration: none;
 }
 
+.class li {
+  line-height: 175%;
+}
+
 .scroll {
   float: inline-end;
 }
 
 @media (max-width:500px) {
   main {
-    width: 360px;
+    width: 300px;
   }
 }
-
-
-
-
