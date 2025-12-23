@@ -225,6 +225,10 @@ ul, li {
   main {
     width: 300px;
   }
+  header {
+        font-size: 70px;
+    }
 }
+
 
 
