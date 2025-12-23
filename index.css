@@ -188,8 +188,11 @@ h1, p {
   text-align: center;
 }
 
-@media (max-width: 500px) {
-    header {
+@media (max-width:500px) {
+  main {
+    width: 300px;
+  }
+  header {
         font-size: 70px;
     }
 }
