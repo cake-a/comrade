@@ -262,8 +262,8 @@ h1 .schoolheader {
   text-decoration: none;
 }
 
-.classes li {
-  line-height: 175%;
+.courselist li {
+  line-height: 165%;
 }
 
 .scroll {
@@ -275,6 +275,7 @@ h1 .schoolheader {
     width: 300px;
   }
 }
+
 
 
 
