@@ -219,5 +219,9 @@ a {
     display: flex;
     flex-wrap: wrap;
   }
+  header {
+        font-size: 70px;
+    }
 }
+
 
