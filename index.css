@@ -145,8 +145,6 @@ nav li.dropdown {
 
 #myInput {
   box-sizing: border-box;
-  background-image: url('https://www.flaticon.com/free-icons/magnifying-glass');
-  /* ATTRIBUTION FOR SEARCH ICON */
   background-position: 14px 12px;
   background-repeat: no-repeat;
   font-size: 18px;
@@ -198,4 +196,3 @@ img  {
         font-size: 70px;
     }
 }
-
