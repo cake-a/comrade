@@ -193,14 +193,11 @@ h3 {
     font-size: 26px;
 }
 
-li {
-    font-size: 20px;
-    list-style-type: none;
-}
-
-p {
+p, li {
   font-size: 20px;
   font-weight: 500;
+  list-style-type: none;
+  line-height: 185%;
 }
 
 a {
@@ -219,16 +216,11 @@ h2 a:hover,
 
 .major {
   display: flex;
-  justify-content: center;
 }
 
 .majors {
-  flex-basis: 450px;
-  flex-shrink:2;
-}
-
-.majors li {
-  line-height: 185%;
+  width: 450px;
+  padding: 10px;
 }
 
 .campus,
@@ -256,13 +248,14 @@ h1 .schoolheader {
   float: inline-end;
 }
 
-@media (max-width:500px) {
+@media (max-width:800px) {
   main {
     width: 300px;
   }
   header {
         font-size: 70px;
     }
+  .majors {
+    width: 175px;
+  }
 }
-
-
