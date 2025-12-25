@@ -250,15 +250,16 @@ h1 .schoolheader {
 
 @media (max-width:500px) {
   main {
-    width: 95%;
+    width: 100%;
   }
   header {
-        font-size: 90%;
+        font-size: 95%;
     }
   .majors {
     width: 48%;
   }
 }
+
 
 
 
