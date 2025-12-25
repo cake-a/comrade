@@ -71,7 +71,6 @@ nav ul {
 
 nav li {
   flex: 0 0 auto;
-  padding: 0px 20px;
 }
 
 nav li a,
@@ -223,5 +222,6 @@ a {
         font-size: 70px;
     }
 }
+
 
 
