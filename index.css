@@ -192,16 +192,8 @@ img  {
   height: 60%;
 }
 
-@media (max-width:500px) {
-  header {
+@media (max-width: 500px) {
+    header {
         font-size: 70px;
     }
 }
-
-
-
-
-
-
-
-
