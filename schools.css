@@ -163,7 +163,6 @@ nav li.dropdown {
 
 /*
 general school pages with list of majors
-school pathway for specific majors
 */
 
 .main {
@@ -212,7 +211,6 @@ p a:hover,
 h1 a:hover,
 h2 a:hover,
 .majors a:hover,
-.classes a:hover,
 .alphabetmajors a:hover,
 .alphabetgraduate a:hover
  {
@@ -229,7 +227,10 @@ h2 a:hover,
   flex-shrink:2;
 }
 
-.majortitle,
+.majors li {
+  line-height: 185%;
+}
+
 .campus,
 h1, h3 {
   text-align: center;
@@ -251,11 +252,6 @@ h1 .schoolheader {
   text-decoration: none;
 }
 
-.courselist li,
-.majors li {
-  line-height: 185%;
-}
-
 .scroll {
   float: inline-end;
 }
@@ -268,8 +264,5 @@ h1 .schoolheader {
         font-size: 70px;
     }
 }
-
-
-
 
 
