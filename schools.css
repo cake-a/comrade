@@ -235,12 +235,6 @@ h1, h3 {
   text-align: center;
 }
 
-.schoolcampus {
-  display: inline-block;
-  padding: 3px 45px;
-  text-align: center;
-}
-
 h1 .schoolheader {
   font-size: 40px;
 }
@@ -274,6 +268,7 @@ h1 .schoolheader {
         font-size: 70px;
     }
 }
+
 
 
 
