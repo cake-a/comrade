@@ -248,7 +248,7 @@ h1 .schoolheader {
   float: inline-end;
 }
 
-@media (max-width:800px) {
+@media (max-width:500px) {
   main {
     width: 300px;
   }
@@ -256,8 +256,9 @@ h1 .schoolheader {
         font-size: 70px;
     }
   .majors {
-    width: 45%;
+    width: 48%;
   }
 }
+
 
 
