@@ -214,7 +214,7 @@ a {
 }
 
 /* try to get it to wrap in the right way */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   main {
     display: flex;
     flex-wrap: wrap;
@@ -223,6 +223,7 @@ a {
         font-size: 70px;
     }
 }
+
 
 
 
