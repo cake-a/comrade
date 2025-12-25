@@ -195,4 +195,9 @@ img  {
     header {
         font-size: 70px;
     }
+      img {
+      width: 80%;
+      height: 80%;
+    }
 }
+
