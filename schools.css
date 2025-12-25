@@ -16,7 +16,6 @@
   font-family: "Anta", "Rationale", sans-serif;
   letter-spacing: 1.25px;
   word-spacing: 4%;
-  line-height: 125%;
 }
 
 header {
@@ -210,6 +209,7 @@ a {
 
 p a:hover,
 h1 a:hover,
+h2 a:hover,
 .majors a:hover,
 .classes a:hover,
 .alphabetmajors a:hover,
@@ -273,14 +273,6 @@ h1 .schoolheader {
         font-size: 70px;
     }
 }
-
-
-
-
-
-
-
-
 
 
 
