@@ -223,10 +223,11 @@ ul, li {
 
 @media (max-width:500px) {
   main {
-    width: 300px;
+    width: 350px;
   }
   header {
         font-size: 70px;
     }
 }
+
 
