@@ -62,6 +62,7 @@ footer a {
 nav ul {
   list-style-type: none;
   margin: 0;
+  padding:0;
   position:relative;
   display:flex;
   flex-wrap: wrap;
@@ -228,3 +229,4 @@ ul, li {
         font-size: 70px;
     }
 }
+
