@@ -188,11 +188,17 @@ h1, p {
   text-align: center;
 }
 
+img  {
+  width:  60%;
+  height: 60%;
+}
+
 @media (max-width:500px) {
   header {
         font-size: 70px;
     }
 }
+
 
 
 
