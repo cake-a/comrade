@@ -250,7 +250,7 @@ h1 .schoolheader {
 
 @media (max-width:800px) {
   main {
-    width: 365px;
+    width: 300px;
   }
   header {
         font-size: 70px;
@@ -259,4 +259,5 @@ h1 .schoolheader {
     width: 45%;
   }
 }
+
 
