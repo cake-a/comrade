@@ -187,17 +187,16 @@ h1, p {
 }
 
 img  {
-  width:  60%;
-  height: 60%;
+  width:  40%;
+  height: 40%;
 }
 
 @media (max-width: 500px) {
     header {
         font-size: 70px;
     }
-      img {
-      width: 80%;
-      height: 80%;
+    img {
+      width: 85%;
+      height: 85%;
     }
 }
-
