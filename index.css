@@ -90,12 +90,12 @@ footer a:hover {
   background-color: hsl(105, 50%, 20%);
 }
 
-nav li.dropdown {
+nav li.dropdown-content1 {
   display: inline-block;
   z-index: 5;
 }
 
-.dropdown-content,
+
 .dropdown-content1 {
   display: none;
   position: absolute;
@@ -108,7 +108,6 @@ nav li.dropdown {
   padding: 10px;
 }
 
-.dropdown-content a,
 .dropdown-content1 a,
 .dropdown-search a {
   color: hsl(0, 0%, 100%);
@@ -120,13 +119,11 @@ nav li.dropdown {
   width: 200px;
 }
 
-.dropdown-content a:hover,
 .dropdown-content1 a:hover,
 .dropdown-search a:hover {
   background-color: hsl(0, 0%, 40%);
 }
 
-.dropdown:hover .dropdown-content,
 .dropdown:hover .dropdown-content1,
 .dropdown:hover .dropdown-search{
   display: flex;
@@ -198,5 +195,12 @@ img  {
     img {
       width: 85%;
       height: 85%;
+    }
+
+    .dropdown:hover .dropdown-content1{
+      display: flex;
+      flex-flow: column wrap;
+      overflow: auto;
+      height: 500px;
     }
 }
