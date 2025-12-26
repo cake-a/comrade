@@ -219,7 +219,7 @@ h2 a:hover,
 }
 
 .majors {
-  width: 450px;
+  width: 48%;
   padding: 10px;
 }
 
@@ -255,10 +255,8 @@ h1 .schoolheader {
   header {
         font-size: 70px;
     }
-  .majors {
-    width: 48%;
-  }
 }
+
 
 
 
