@@ -228,7 +228,14 @@ ul, li {
   header {
         font-size: 70px;
     }
+  .dropdown:hover .dropdown-content1{
+    display: flex;
+    flex-flow: column wrap;
+    overflow: auto;
+    height: 500px;
+  }
 }
+
 
 
 
