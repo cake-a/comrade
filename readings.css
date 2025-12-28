@@ -172,7 +172,7 @@ notes
 }
 
 main {
-  width: 900px;
+  width: 60%;
   line-height: 175%;
 }
 
@@ -217,17 +217,22 @@ ul, li {
   font-size: 20px;
 }
 
-@media (max-width:500px) {
-  main {
-    width: 300px;
+@media (max-width: 1100px) {
+    .dropdown:hover .dropdown-content1{
+      display: flex;
+      flex-flow: column wrap;
+      overflow: auto;
+      height: 500px;
+    }
+
+    main {
+    width: 85%;
   }
-  header {
+}
+
+
+@media (max-width: 500px) {
+      header {
         font-size: 70px;
     }
-  .dropdown:hover .dropdown-content1{
-    display: flex;
-    flex-flow: column wrap;
-    overflow: auto;
-    height: 500px;
-  }
 }
