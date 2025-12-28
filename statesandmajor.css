@@ -213,7 +213,6 @@ a {
 /* try to get it to wrap in the right way */
 @media (max-width: 1300px) {
   main {
-    display: flex;
     flex-wrap: wrap;
   }
 
