@@ -227,7 +227,7 @@ h1, h3 {
 
 @media (max-width:500px) {
   main {
-    width: 300px;
+    width: 95%;
   }
   header {
     font-size: 70px;
@@ -239,3 +239,4 @@ h1, h3 {
     height: 500px;
   }
 }
+
