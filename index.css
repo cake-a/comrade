@@ -186,14 +186,11 @@ h1, p {
 img  {
   width:  40%;
   height: 40%;
+  min-width: 250px;
+  min-height: 80px;
 }
 
 @media (max-width: 1100px) {
-    img {
-      width: 85%;
-      height: 85%;
-    }
-
     .dropdown:hover .dropdown-content1{
       display: flex;
       flex-flow: column wrap;
@@ -207,3 +204,4 @@ img  {
         font-size: 70px;
     }
 }
+
