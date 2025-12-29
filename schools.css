@@ -16,7 +16,6 @@
   font-family: "Anta", "Rationale", sans-serif;
   letter-spacing: 1.25px;
   word-spacing: 4%;
-  line-height: 125%;
 }
 
 header {
@@ -95,7 +94,6 @@ nav li.dropdown-content1 {
   z-index: 5;
 }
 
-
 .dropdown-content1 {
   display: none;
   position: absolute;
@@ -142,6 +140,8 @@ nav li.dropdown-content1 {
 
 #myInput {
   box-sizing: border-box;
+  background-image: url('https://www.flaticon.com/free-icons/magnifying-glass');
+  /* ATTRIBUTION FOR SEARCH ICON */
   background-position: 14px 12px;
   background-repeat: no-repeat;
   font-size: 18px;
@@ -154,6 +154,7 @@ nav li.dropdown-content1 {
 #myInput:focus {
   outline: 3px solid hsl(0, 0%, 41%);
 }
+
 
 
 /*
@@ -262,3 +263,4 @@ h1 .schoolheader {
         font-size: 70px;
     }
 }
+
