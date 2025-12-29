@@ -3,6 +3,6 @@
 <p>They  pay for courses, see the information for the first time, and are expected to pass in a single semester.</p>
 <br>
 <p>Through <strong>Comrade</strong>, students are able to have an overview of what they need to know prior to attending class, thus giving them an advantage and higher chance of passing said course.</p>
-<p>Students that feel restricted and confined to one major can also explore other majors and broaden their knowledge by learning about what other students know from specifc schools and majors.</p>
+<p>Students that feel restricted and confined to one major can also explore other majors and broaden their knowledge by learning about what other students know.</p>
 <br>
 <p>At essense, <strong>Comrade</strong> is a compilation of everything a student needs to succeed in university or college, and then contribute to society.</p>
