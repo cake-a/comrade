@@ -1,4 +1,5 @@
 #COMRADE
+
 **Comrade** is a resource that enables current students to upload their major pathway, reading guides, booklists, and notes as a means to help prospective students get a leg up on studying and preparing for courses prior to payment
 Today, students are forced to take a financial gamble towards higher education.
 They  pay for courses, see the information for the first time, and are expected to pass in a single semester.
