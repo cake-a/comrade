@@ -258,9 +258,10 @@ h1 .schoolheader {
 }
 
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
       header {
         font-size: 70px;
     }
 }
+
 
