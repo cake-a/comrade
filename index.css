@@ -195,7 +195,7 @@ img  {
   min-height: 80px;
 }
 
-@media (max-width: 1100px) {
+@media only screen and (max-width: 1100px) {
 
     .dropdown:hover .dropdown-content1{
       display: flex;
@@ -205,8 +205,9 @@ img  {
     }
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
       header {
         font-size: 70px;
     }
 }
+
