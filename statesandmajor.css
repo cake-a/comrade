@@ -211,7 +211,7 @@ a {
 }
 
 /* try to get it to wrap in the right way */
-@media (max-width: 1300px) {
+@media only screen and (max-width: 1300px) {
   main {
     flex-wrap: wrap;
   }
@@ -224,8 +224,9 @@ a {
   }
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   header {
         font-size: 70px;
     }
 }  
+
