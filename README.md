@@ -12,7 +12,7 @@ Students that feel restricted and confined to one major can also explore other m
 
 At essense, <ins>**Comrade**</ins> is a compilation of everything a student needs to succeed in university or college.  
 
-To-do list:  
+**To-do list:**  
 ✅ Completed inputting colleges and universities for each state  
 ✅ Added media queries to Comrade CSS for different devices  
 🔲 Figure out how to organize files in folder structure  
