@@ -13,11 +13,11 @@ Students that feel restricted and confined to one major can also explore other m
 At essense, <ins>**Comrade**</ins> is a compilation of everything a student needs to succeed in university or college.  
 
 **To-do list:**  
-[x] Completed inputting colleges and universities for each state  
-[x] Added media queries to Comrade CSS for different devices  
-[ ] Figure out how to organize files in folder structure  
-[ ] Complete HTML 'school page' for each school in every state  
-[ ] Complete HTML 'major page' for each major offered at every school  
-[ ] Learn to connect back-end to front-end, and test functionality of submissions page and search engine  
-[ ] Save money to get official Copyright, domain, and server for website  
-[ ] Share website to students  
+- [x] Completed inputting colleges and universities for each state  
+- [x] Added media queries to Comrade CSS for different devices  
+- [ ] Figure out how to organize files in folder structure  
+- [ ] Complete HTML 'school page' for each school in every state  
+- [ ] Complete HTML 'major page' for each major offered at every school  
+- [ ] Learn to connect back-end to front-end, and test functionality of submissions page and search engine  
+- [ ] Save money to get official Copyright, domain, and server for website  
+- [ ] Share website to students  
