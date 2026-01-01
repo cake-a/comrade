@@ -156,50 +156,106 @@ nav li.dropdown-content1 {
 }
 
 
-/* 
-
-index.html
-privacy.html
-submission.html
-contact.html
-
+/*
+general school pages with list of majors
 */
 
+.main {
+  display: flex;
+  justify-content: center;
+}
 
 main {
-  padding: 25px;
+  width: 60%;
+}
+
+h1 {
   text-align: center;
+  padding: 30px 0px 0px;
+  font-size: 40px;
 }
 
-form {
-  display: block;
-  padding: 25px 125px 0px 125px;
+h1 a{
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
 }
 
-label {
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p, li {
   font-size: 20px;
+  font-weight: 500;
+  list-style-type: none;
+  line-height: 185%;
 }
 
-h1, p {
+a {
+  color: hsl(0, 0%, 100%);
+}
+
+p a:hover,
+h1 a:hover,
+h2 a:hover,
+.majors a:hover,
+.alphabetmajors a:hover,
+.alphabetgraduate a:hover
+ {
+  color: hsl(105, 80%, 35%);
+}
+
+.major {
+  display: flex;
+}
+
+.majors {
+  width: 48%;
+  padding: 10px;
+}
+
+.campus,
+h1, h3 {
   text-align: center;
 }
 
-img  {
-  width:  40%;
-  height: 40%;
-  min-width: 250px;
-  min-height: 80px;
+h1 .schoolheader {
+  font-size: 40px;
+}
+
+.alphabetmajors,
+.alphabetgraduate {
+  font-size: 24px;
+  text-align: center;
+}
+
+.alphabetmajors a,
+.alphabetgraduate a {
+  padding: 8px;
+  text-decoration: none;
+}
+
+.scroll {
+  float: inline-end;
 }
 
 @media (max-width: 1100px) {
-
     .dropdown:hover .dropdown-content1{
       display: flex;
       flex-flow: column wrap;
       overflow: auto;
       height: 500px;
     }
+    
+    main {
+    width: 85%;
+  }
 }
+
 
 @media (max-width: 500px) {
       header {

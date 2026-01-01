@@ -95,7 +95,6 @@ nav li.dropdown-content1 {
   z-index: 5;
 }
 
-
 .dropdown-content1 {
   display: none;
   position: absolute;
@@ -142,6 +141,8 @@ nav li.dropdown-content1 {
 
 #myInput {
   box-sizing: border-box;
+  background-image: url('https://www.flaticon.com/free-icons/magnifying-glass');
+  /* ATTRIBUTION FOR SEARCH ICON */
   background-position: 14px 12px;
   background-repeat: no-repeat;
   font-size: 18px;
@@ -156,53 +157,75 @@ nav li.dropdown-content1 {
 }
 
 
+
 /* 
 
-index.html
-privacy.html
-submission.html
-contact.html
+main states page
+main majors page
+individual state pages with list of schools
 
 */
 
-
 main {
-  padding: 25px;
-  text-align: center;
+  display:flex;
+  justify-content: center;
 }
 
-form {
-  display: block;
-  padding: 25px 125px 0px 125px;
-}
-
-label {
+main ul {
+  list-style-type: none;
+  line-height: 175%;
   font-size: 20px;
 }
 
-h1, p {
+main a {
+  font-size: 20px;
+}
+
+h1 {
   text-align: center;
+  padding: 30px 0px 0px;
+  font-size: 45px;
 }
 
-img  {
-  width:  40%;
-  height: 40%;
-  min-width: 250px;
-  min-height: 80px;
+a {
+  color: hsl(0, 0%, 100%);
 }
 
-@media (max-width: 1100px) {
+.majorcolumn1 a:hover,
+.statecolumn1 a:hover,
+.column a:hover {
+  color: hsl(105, 80%, 35%);
+}
 
-    .dropdown:hover .dropdown-content1{
-      display: flex;
-      flex-flow: column wrap;
-      overflow: auto;
-      height: 500px;
-    }
+.statecolumn1 {
+  width: 200px;
+}
+
+.majorcolumn1, .column {
+  width: 390px;
+}
+
+.column li,
+.statecolumn1 a {
+  line-height: 175%;
+}
+
+/* try to get it to wrap in the right way */
+@media (max-width: 1300px) {
+  main {
+    flex-wrap: wrap;
+  }
+
+  .dropdown:hover .dropdown-content1{
+    display: flex;
+    flex-flow: column wrap;
+    overflow: auto;
+    height: 500px;
+  }
 }
 
 @media (max-width: 500px) {
-      header {
+  header {
         font-size: 70px;
     }
-}
+}  
