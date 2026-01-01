@@ -212,6 +212,10 @@ h2 a:hover,
   color: hsl(105, 80%, 35%);
 }
 
+.red {
+  color: hsl(0, 100%, 50%);
+}
+
 .majortitle,
 h1, h3 {
   text-align: center;
@@ -243,4 +247,5 @@ h1, h3 {
       header {
         font-size: 70px;
     }
+
 }
