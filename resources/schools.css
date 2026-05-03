@@ -188,10 +188,10 @@ h3 {
     font-size: 26px;
 }
 
-p, li {
-  font-size: 20px;
+p,.major li {
+  font-size: 22px;
   font-weight: 500;
-  list-style-type: none;
+  list-style-type: circle;
   line-height: 185%;
 }
 
@@ -202,6 +202,7 @@ a {
 p a:hover,
 h1 a:hover,
 h2 a:hover,
+h3 a:hover,
 .majors a:hover,
 .alphabetmajors a:hover,
 .alphabetgraduate a:hover
@@ -215,7 +216,7 @@ h2 a:hover,
 
 .majors {
   width: 48%;
-  padding: 10px;
+  padding: 15px;
 }
 
 .campus,
